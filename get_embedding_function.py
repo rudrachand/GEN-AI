@@ -1,4 +1,3 @@
-#from langchain_community.embeddings.bedrock import BedrockEmbeddings
 from langchain_ollama import OllamaEmbeddings
 
 def get_embedding_function():
@@ -7,10 +6,3 @@ def get_embedding_function():
     # )
     embeddings = OllamaEmbeddings(model="nomic-embed-text:v1.5")
     return embeddings
-
-# get_embedding_function.py
-
-# from gemini_embedding import GeminiEmbedding
-
-# def get_embedding_function():
-#     return GeminiEmbedding()
