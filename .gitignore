@@ -1,0 +1,42 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+# =============================
+# Virtual environments
+# =============================
+.venv/
+venv/
+
+# =============================
+# IDE/editor folders
+# =============================
+.vscode/
+.idea/
+
+# =============================
+# Environment & API secrets
+# =============================
+.env
+
+# =============================
+# Chroma vector stores
+# =============================
+chroma-history-database/
+chroma-civics-database/
+
+# =============================
+# Ollama cache (if used locally)
+# =============================
+.ollama/
+
+# =============================
+# Miscellaneous
+# =============================
+.DS_Store
